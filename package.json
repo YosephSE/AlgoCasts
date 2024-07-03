@@ -1,5 +1,5 @@
 {
-  "name": "AlgoCasts",
+  "name": "y",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,5 +10,8 @@
     "testEnvironment": "node"
   },
   "author": "YosephSE",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.7.0"
+  }
 }
