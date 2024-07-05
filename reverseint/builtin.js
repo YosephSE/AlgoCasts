@@ -1,8 +1,5 @@
 function reverseInt(num){
-    if(num < 0){
-        return Number(Math.abs(num).toString().split("").reverse().join("")) * -1
-    }
-    return Number(num.toString().split("").reverse().join(""))
+    return Number(Math.abs(num).toString().split("").reverse().join("")) * Math.sign(num)
 }
 
 console.log(reverseInt(15))
