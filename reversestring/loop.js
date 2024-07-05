@@ -1,9 +1,9 @@
 function reverseString(str){
-    let reversed = []
+    let reversed = ''
     for(item of str){
-        reversed.unshift(item)
+        reversed = item + reversed;
     }
-    return reversed.join("")
+    return reversed
 }
 
 
