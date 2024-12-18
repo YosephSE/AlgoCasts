@@ -1,9 +1,14 @@
 function steps(n) {
-  for (i = 1; i <= n; i++) {
-    console.log("#".repeat(i));
-    for (j = n - 1; j >= 0; j--) {
-      console.log("*".repeat(j));
+  for (row = 0; row < n; row++) {
+    let stair = "";
+    for (column = 0; column < n; column++) {
+      if (column <= row) {
+        stair += "#";
+      } else {
+        stair += " ";
+      }
     }
+    console.log(stair);
   }
 }
 
