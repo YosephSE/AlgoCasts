@@ -33,10 +33,3 @@ class Counter {
     return (this.count = this.init);
   }
 }
-
-const counter = new Counter(12);
-
-console.log(counter.increment);
-
-counter.reset;
-counter.decrement;
